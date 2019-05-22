@@ -1,0 +1,28 @@
+h1 {
+  font-size: 2em;
+  letter-spacing: 0.10em;
+  margin: 0 0 0.525em 0; }
+  h1.name {
+    text-transform: none; }
+
+h2 {
+  font-size: 1.5em;
+	letter-spacing: 0.05em; }
+
+h3 {
+  font-size: 1em;
+	letter-spacing: 0.05em; }
+
+h4 {
+  font-size: 0.9em; }
+
+h5, li {
+  font-size: 1.0em;
+	letter-spacing: 0.05em; }
+
+h6, .biography {
+  font-size: 0.7em; }
+
+.content {
+  margin: auto;
+}

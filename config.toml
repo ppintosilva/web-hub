@@ -1,0 +1,114 @@
+# Site settings
+baseurl = "http://ppintosilva.com" #without ending slash
+languageCode = "en-uk"
+title = "Pedro's Hub"
+theme = "identity"
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+# Enter your tracking code to enable Google Analytics
+#googleAnalytics = "UA-XXXXX-Y"
+
+[params]
+
+  # Images settings
+  # Icons, backgrounds and avatars folders are placed in theme's static/images folder.
+  # You may place your images in corresponding folders and then set only filenames below to
+  # change page's appearance
+
+  # Site icons
+  favicon_ico = "favicon.ico"
+  favicon_ico_sizes = "16x16"
+  # appleicon = "test.png"
+
+  # Additional options to supplement icons served
+  #favicon_png = "favicon.png"
+  #favicon_png_sizes = "96x96"
+  #favicon_svg = "favicon.svg"
+
+  # Link custom assets relative to /static
+  #custom_js  = [""]
+  custom_css = ["background.css", "icons.css", "custom.css"]
+
+  # Customization switches
+  # Overwrite FontAwesome: see icons.css
+  # custom_icons = true
+  # Overwrite background: see background.css
+  custom_background = true
+
+  author = "Pedro Pinto da Silva"
+
+
+  # Personal data
+  [params.personal]
+    # If name is not set, author is used
+    # name =
+
+    # Avatars can be written to images/avatars/
+    avatar = "profile.jpg"
+    position = "PhD Student"
+#     livesIn = "[Munich, Germany](#some-maps-url)"
+#     scope = [
+#         "UX for [member dashboard](#)",
+#         "Maintainer for [awesome-project](#)",
+#         "Open Source [community management](#)"
+#       ]
+    scope = [
+      "School of Computing, [Newcastle University](https://www.ncl.ac.uk/bigdata/)"
+    ]
+    # biography = "[blog](https://blog.ppintosilva.com)"
+
+      #     biography = """Jane Powers is plain awesome. He worked at Corp A and B and is open for new work.
+      # Even new lines and other markdown styles are working within the bio."""
+
+  # Social settings
+  # You may change these with your social links or add others
+
+  [[params.social]]
+    title = "Email"
+    icon = "fa-envelope"
+    link = "mailto:p.pinto-da-silva2@newcastle.ac.uk"
+    target = "_blank"
+
+	[[params.social]]
+    title = "GitHub"
+    icon = "fa-github"
+    link = "https://github.com/ppintosilva"
+    target = "_blank"
+
+	[[params.social]]
+    title = "Google Scholar"
+    icon = "fa-graduation-cap"
+    link = "https://scholar.google.co.uk/citations?user=WkogXh8AAAAJ"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "https://twitter.com/ppintodsilva"
+    target = "_blank"
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/pedro-pinto-da-silva-a73a6768"
+    target = "_blank"
+
+  # Footer settings
+  [params.footer]
+    # If copyright is not set, author is used
+    # copyright = "Pedro Pinto da Silva"
+
+  # Page license
+  [params.license]
+    link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    name = "CC-BY-SA-4.0"
+
+  # Credits
+  [[params.credits]]
+    # Title is used as URL text
+    title = "HTML5UP"
+    # Text will be used to explain the credit
+    text = "Design by"
+    link = "https://html5up.net"

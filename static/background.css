@@ -1,0 +1,7 @@
+body {
+	background-size: auto cover;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+  background-image: url("fog.jpg");
+	background-position: left top;
+}

@@ -1,0 +1,3 @@
+[submodule "themes/identity"]
+	path = themes/identity
+	url = git@github.com:ppintosilva/hugo-identity-theme.git

@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://ppintosilva.com" #without ending slash
+# baseurl = "http://ppintosilva.com" #without ending slash
 languageCode = "en-uk"
 title = "Pedro's Hub"
 theme = "identity"

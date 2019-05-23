@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://ppintosilva.com" #without ending slash
+# baseurl = "http://ppintosilva.com" #without ending slash
 languageCode = "en-uk"
 title = "Pedro's Hub"
 theme = "identity"
@@ -19,7 +19,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
   # Site icons
   favicon_ico = "favicon.ico"
-  favicon_ico_sizes = "16x16"
+  favicon_ico_sizes = "16x16 32x32"
   # appleicon = "test.png"
 
   # Additional options to supplement icons served

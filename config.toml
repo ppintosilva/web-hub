@@ -1,5 +1,5 @@
 # Site settings
-# baseurl = "http://ppintosilva.com" #without ending slash
+baseurl = "http://ppintosilva.com" #without ending slash
 languageCode = "en-uk"
 title = "Pedro's Hub"
 theme = "identity"
@@ -8,7 +8,7 @@ theme = "identity"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
 
 # Enter your tracking code to enable Google Analytics
-#googleAnalytics = "UA-XXXXX-Y"
+googleAnalytics = "UA-140741101-1"
 
 [params]
 
